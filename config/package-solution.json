@@ -1,0 +1,12 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "spfx-automation-tutorial-TestEnv",
+        "id": "11111111-266d-479b-a0bb-48e5d67e96f9",
+        "version": "1.0.0.0",
+        "skipFeatureDeployment": true
+    },
+    "paths": {
+        "zippedPackage": "solution/spfx-automation-tutorial-TestEnv.sppkg"
+    }
+}
