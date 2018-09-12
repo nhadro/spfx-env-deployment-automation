@@ -15,7 +15,7 @@ Development webparts have -Development appended, Test has -Test and Prod has the
 
 1.  Clone the respository to your local machine
 2.  Run "npm install"
-3.  Update the "gulp.js" file setting your "username", "password", "tenant" and "cdnSiteUrl" in environmentDeploy object.
+3.  Update the "gulp.js" file setting your "username", "password", "tenant" and "cdnSiteUrl" in the environmentDeploy object.
 4.  Update the Deploy- files with the correct CDN path urls as well as the appcatalog paths.
 5.  Run Deploy-Development.cmd
         - This will:
