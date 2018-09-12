@@ -19,16 +19,16 @@ Development webparts have -Development appended, Test has -Test and Prod has the
 4.  Update the Deploy- files with the correct CDN path urls as well as the appcatalog paths.
 5.  Run Deploy-Development.cmd
         - This will:
-            a.  Clean the solution.__
-            b.  Run the gulp task to update the component manifests.__
-            c.  Run the gulp task to update the package solution manifest.__
-            d.  Run the gulp task to update the write-manifest.__
-            e.  Run the normal gulp command.__
-            f.  Bundle using the --ship command.__
-            g.  Upload all solution assets to the CDN specified.__
-            h.  Package the solution using the --ship command.__
-            i.  Upload the newly created package to the app catalog.__
-            j.  Deploy the newly added solution.__
+            a.  Clean the solution.<br />
+            b.  Run the gulp task to update the component manifests.<br />
+            c.  Run the gulp task to update the package solution manifest.<br />
+            d.  Run the gulp task to update the write-manifest.<br />
+            e.  Run the normal gulp command.<br />
+            f.  Bundle using the --ship command.<br />
+            g.  Upload all solution assets to the CDN specified.<br />
+            h.  Package the solution using the --ship command.<br />
+            i.  Upload the newly created package to the app catalog.<br />
+            j.  Deploy the newly added solution.<br />
 
 6.  Now you will be able to add "HelloWorld-Development" on a page.  
 
