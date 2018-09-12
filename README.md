@@ -42,3 +42,6 @@ Many thanks to Elio Struyf who provided a significant portion of the deployment 
 
 
 
+### Important Note
+
+Do NOT put two different version of the same webpart on the same page.  The page will break and not render and you'll need to rebuild it.  I'm not sure why this is happening at this point.  It's a future fix.  For now just don't do it.
