@@ -2,11 +2,11 @@
 
 This project provides an approach to have Development,Test, and Production versions of webparts and extensions in a single Tenant.
 
-The deployment is completely automated running through gulp files to modify the manifest files as needed and then deploying each package to the AppCatalog.
+The deployment is completely automated running through gulp tasks to modify the manifest files as needed and then deploying the specific package to the AppCatalog.
 
 After each package is deployed to the appcatalog, you can create a site collection for Dev/Test/Prod and put the corresponding webparts/extensions in that site.
 
-When you each environment package is updated and deployed, only the corresponding version of the webparts will be updated.
+When each environment package is updated and deployed, only the corresponding version of the webparts will be updated.
 
 Development webparts have -Development appended, Test has -Test and Prod has the original webpart name.
 
