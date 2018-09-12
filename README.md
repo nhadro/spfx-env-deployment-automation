@@ -19,16 +19,16 @@ Development webparts have -Development appended, Test has -Test and Prod has the
 4.  Update the Deploy- files with the correct CDN path urls as well as the appcatalog paths.
 5.  Run Deploy-Development.cmd
         - This will:
-            a.  Clean the solution
-            b.  Run the gulp task to update the component manifests.
-            c.  Run the gulp task to update the package solution manifest.
-            d.  Run the gulp task to update the write-manifest
-            e.  Run the normal gulp command
-            f.  Bundle using the --ship command.
-            g.  Upload all solution assets to the CDN specified
-            h.  Package the solution using the --ship command
-            i.  Upload the newly created package to the app catalog
-            j.  Deploy the newly added solution.
+            a.  Clean the solution.__
+            b.  Run the gulp task to update the component manifests.__
+            c.  Run the gulp task to update the package solution manifest.__
+            d.  Run the gulp task to update the write-manifest.__
+            e.  Run the normal gulp command.__
+            f.  Bundle using the --ship command.__
+            g.  Upload all solution assets to the CDN specified.__
+            h.  Package the solution using the --ship command.__
+            i.  Upload the newly created package to the app catalog.__
+            j.  Deploy the newly added solution.__
 
 6.  Now you will be able to add "HelloWorld-Development" on a page.  
 
@@ -44,4 +44,4 @@ Many thanks to Elio Struyf who provided a significant portion of the deployment 
 
 ### Important Note
 
-Do NOT put two different version of the same webpart on the same page.  The page will break and not render and you'll need to rebuild it.  I'm not sure why this is happening at this point.  It's a future fix.  For now just don't do it.
+Do NOT put two different version of the same webpart on the same page.  The page will break and will not render and you'll need to rebuild it.  I'm not sure why this is happening at this point.  It's a future fix.  For now just don't do it.
