@@ -18,7 +18,7 @@ Development webparts have -Development appended, Test has -Test and Prod has the
 3.  Update the "gulp.js" file setting your "username", "password", "tenant" and "cdnSiteUrl" in the environmentDeploy object.
 4.  Update the Deploy- files with the correct CDN path urls as well as the appcatalog paths.
 5.  Run Deploy-Development.cmd
-        - This will:
+        - This will:<br />
             a.  Clean the solution.<br />
             b.  Run the gulp task to update the component manifests.<br />
             c.  Run the gulp task to update the package solution manifest.<br />
