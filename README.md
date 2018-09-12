@@ -34,7 +34,7 @@ Development webparts have -Development appended, Test has -Test and Prod has the
 
 The Production batch file can also be run to deploy the production package.
 
-###Thank To
+### Thanks To
 
 Many thanks to Elio Struyf who provided a significant portion of the deployment automation scripts in his release pipeline article below.
 
